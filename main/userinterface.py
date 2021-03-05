@@ -13,13 +13,6 @@ class Window:
         self.lable = Label(self.window, text="Test")
         self.lable.grid(row=3, column=3)
 
-    def runwindow(self):
-        self.window.mainloop()
-
-    def addText(self, Text, posx, posy):
-        lable = self.Label(self.window, text=Text)
-        lable.grid(column=posx, row=posy)
-
 
 window = Tk()
 Fenster1 = Window(800, 600, "Test", window)
